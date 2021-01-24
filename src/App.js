@@ -1,10 +1,10 @@
 import './App.css';
+import GetName from "./GetName";
 
 function App() {
   return (
     <div className="App">
-      <button className="button">hello</button>
-        <input type="text" className="input"/>
+      <GetName />
     </div>
   );
 }
