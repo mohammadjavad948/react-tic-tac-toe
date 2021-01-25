@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79c32c3d-812f-4e15-aae0-bed1ae4dd5df" name="Default Changelist" comment="add getname component">
+    <list default="true" id="79c32c3d-812f-4e15-aae0-bed1ae4dd5df" name="Default Changelist" comment="add simple routing">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../discord-bots/discord-bot-sitepoint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +50,9 @@
       <updated>1611498425608</updated>
       <workItem from="1611498434953" duration="9453000" />
       <workItem from="1611547486071" duration="1828000" />
-      <workItem from="1611549684251" duration="2300000" />
+      <workItem from="1611549684251" duration="4771000" />
+      <workItem from="1611561019857" duration="585000" />
+      <workItem from="1611563365088" duration="4710000" />
     </task>
     <task id="LOCAL-00001" summary="add custom css">
       <created>1611505410457</created>
@@ -66,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611510286108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add simple routing">
+      <created>1611552178615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611552178615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +98,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add custom css" />
     <MESSAGE value="add getname component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getname component" />
+    <MESSAGE value="add simple routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add simple routing" />
   </component>
 </project>

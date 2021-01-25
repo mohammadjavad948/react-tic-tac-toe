@@ -1,0 +1,11 @@
+.connection-container{
+    position: absolute;
+    left: 20px;
+    bottom: -100px;
+    display: flex;
+    font-size: 15px;
+    background: var(--white-back);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+}
