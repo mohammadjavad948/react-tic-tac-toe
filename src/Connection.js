@@ -4,20 +4,16 @@ import {useSpring, animated, config} from "react-spring";
 
 export default function Connection() {
 
-    const [connected, changeConnected] = useState(true);
+    const [connected, changeConnected] = useState(false);
     const [connectonProp, setConnectionProp] = useSpring(() => {
         return {
-            bottom: '-100px',
+            bottom: '20px',
             delay: 1000,
             config: config.wobbly
         }
     });
 
-    setInterval(() => {
-        changeConnected(!connected);
-
-        setConnectionProp({bottom: connected ? '20px' : '-100px'})
-    }, 5000);
+    setConnectionProp({bottom: connected ? '-100px' : '20px'})
 
     return (
         <animated.div style={connectonProp} className="connection-container">

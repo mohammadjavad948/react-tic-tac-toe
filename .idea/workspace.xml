@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79c32c3d-812f-4e15-aae0-bed1ae4dd5df" name="Default Changelist" comment="add simple routing">
+    <list default="true" id="79c32c3d-812f-4e15-aae0-bed1ae4dd5df" name="Default Changelist" comment="add whole bunch of components">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetName.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetName.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <workItem from="1611547486071" duration="1828000" />
       <workItem from="1611549684251" duration="4771000" />
       <workItem from="1611561019857" duration="585000" />
-      <workItem from="1611563365088" duration="4710000" />
+      <workItem from="1611563365088" duration="5330000" />
     </task>
     <task id="LOCAL-00001" summary="add custom css">
       <created>1611505410457</created>
@@ -75,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611552178615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add whole bunch of components">
+      <created>1611568427705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611568427705</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +107,7 @@
     <MESSAGE value="add custom css" />
     <MESSAGE value="add getname component" />
     <MESSAGE value="add simple routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add simple routing" />
+    <MESSAGE value="add whole bunch of components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add whole bunch of components" />
   </component>
 </project>
