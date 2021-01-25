@@ -15,34 +15,32 @@ export default function Rooms({setPage}){
        }, 500)
 
         return () => setComponent({opacity: 0})
-    }, [])
+    }, []);
+
+    function joinClick() {
+        setPage(3);
+    }
 
     return (
         <animated.div style={componentProp} className="room-container">
-            <NewRoom />
-            <List />
+            <JoinRoom joinClick={joinClick}/>
         </animated.div>
     )
 }
 
-function NewRoom() {
-    return (
-        <button className="button new-room">new room</button>
-    )
-}
+function JoinRoom({joinClick}) {
 
-function List() {
-    return (
-        <div className="list-container">
-            <Item name={"loli"} />
-        </div>
-    )
-}
+    function captureEnter(event: KeyboardEvent) {
+        if (event.key !== 'Enter') return null;
 
-function Item({name}) {
+        joinClick();
+    }
+
     return (
-        <div className="list">
-            {name}
+        <div className="join-room">
+            <input type="text" className="input" placeholder="room name" onKeyPress={captureEnter}/>
+            <button className="button" onClick={() => joinClick()}>join</button>
         </div>
+
     )
 }
