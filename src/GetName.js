@@ -31,6 +31,12 @@ export default function GetName({setPage}) {
         }, 5000);
     }
 
+    function captureEnter(event: KeyboardEvent) {
+        if (event.key !== "Enter") return null;
+
+        submitName();
+    }
+
     return (
         <animated.div style={componentProp} className="container">
             <animated.span className="text" style={welcomeProp}>welcome to tic tac toe {username}!</animated.span>
@@ -38,6 +44,7 @@ export default function GetName({setPage}) {
                 type="text"
                 className="input"
                 placeholder="your name"
+                onKeyPress={captureEnter}
                 onChange={(e) => changeUsername(e.target.value)}
             />
 
